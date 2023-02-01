@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Web Development Project</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to our Web Development Project</h1>
+    </header>
+    <main>
+      <p>This is where the main content of our project will go.</p>
+    </main>
+  </body>
+</html>
