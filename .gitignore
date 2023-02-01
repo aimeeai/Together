@@ -1,0 +1,21 @@
+Il est recommandé de mettre les éléments suivants dans le fichier .gitignore :
+
+Les fichiers exécutables compilés (par exemple .exe, .o, .out)
+Les fichiers de configuration locaux (par exemple .env, .DS_Store)
+Les mots de passe et les informations sensibles (par exemple les fichiers contenant des informations de connexion)
+Les fichiers temporaires et de sauvegarde (par exemple les fichiers commençant par ~ ou .bak)
+Les fichiers de grande taille qui ne sont pas essentiels au projet (par exemple des images de haute résolution)
+Il est important de ne pas inclure les fichiers qui sont générés automatiquement et qui peuvent être facilement recréés, car cela permet de conserver la taille du dépôt Git raisonnable et d'éviter les conflits de version.
+*****************************
+ les fichiers qui sont générés automatiquement et qui peuvent être facilement recréés, comme quoi
+Des exemples de fichiers générés automatiquement et qui peuvent être facilement recréés incluent :
+
+Les fichiers de build (par exemple .jar, .class, .war)
+Les fichiers de documentation compilée (par exemple .html, .pdf)
+Les fichiers de logs
+Les fichiers de cache (par exemple .npm-cache, .gradle)
+Les fichiers de bibliothèques externes (par exemple node_modules/, vendor/)
+Il est important de noter que cela dépendra également du projet spécifique et de la configuration de votre environnement de développement. Il est donc toujours préférable de vérifier les fichiers que vous voulez exclure et de les ajouter au fichier .gitignore au besoin.
+****************************
+
+Il est généralement recommandé d'exclure les fichiers confidentiels, tels que les factures, du dépôt Git. Les factures peuvent contenir des informations sensibles et confidentielles qui ne doivent pas être partagées publiquement ou avec d'autres membres de l'équipe. Il est donc préférable de les exclure du dépôt Git en les ajoutant au fichier .gitignore.
